@@ -2,7 +2,7 @@
 FROM openjdk:17-jdk-alpine
 
 # Set metadata
-LABEL maintainer="trainwithshubham@gmail.com"
+LABEL maintainer="shubham.ykaralegmail.com"
 LABEL version="1.0"
 LABEL description="A Java Quotes application"
 
@@ -22,3 +22,4 @@ EXPOSE 8000
 
 # Run the Java application when the container starts
 CMD ["java", "Main"]
+
